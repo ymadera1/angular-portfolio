@@ -1,0 +1,11 @@
+<!-- profile.component.html -->
+<div class="profile">
+    <img ngSrc="src/assets/IMG_2503.jpeg" width="200" height="300"  alt="" />
+    <h2>{{ name }}</h2>
+    <p>{{ role }}</p>
+    <p>{{ location }}</p>
+    <div class="social-links">
+      <a [href]="linkedinUrl" target="_blank" class="social-button">LinkedIn</a>
+      <a [href]="githubUrl" target="_blank" class="social-button">GitHub</a>
+    </div>
+  </div>
