@@ -6,14 +6,14 @@ import { NgOptimizedImage } from '@angular/common';
   standalone: true,
   selector: 'app-profile',
   templateUrl: './profile.component.html',
-  styleUrl: './profile.component.css',
+  styleUrls: ['./profile.component.css'],
   imports: [ NgOptimizedImage ]
 })
 
 export class ProfileComponent {
-  name: string = "Arjun Singh";
-  role: string = "Software Developer";
-  location: string = "Bengaluru, India";
+  name: string = "Yvonne Madera";
+  role: string = "Frontend Developer";
+  location: string = "Rutherford, NJ";
   linkedinUrl: string = "https://www.linkedin_profile_url.com";
   githubUrl: string = "https://github_profile_url.com";
 }
